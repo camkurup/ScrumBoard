@@ -1,0 +1,7 @@
+{
+  "name": "ScrumBoard",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
