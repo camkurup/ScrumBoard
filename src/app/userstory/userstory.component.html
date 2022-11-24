@@ -1,3 +1,6 @@
-<p>
-  userstory works!
-</p>
+<ion-card class="item" *ngIf="userstory" (dblclick)="edit.emit(userstory)">
+  <h2>{{ userstory.title }}</h2>
+  <p>
+    {{ userstory.description }}
+  </p>
+</ion-card>

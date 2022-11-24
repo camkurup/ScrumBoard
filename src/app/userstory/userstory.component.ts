@@ -7,6 +7,6 @@ import { UserStory } from './userstory';
   styleUrls: ['./userstory.component.scss'],
 })
 export class UserstoryComponent {
-  @Input() task: Task | null = null;
-  @Output() edit = new EventEmitter<Task>();
+  @Input() userstory: UserStory | null = null;
+  @Output() edit = new EventEmitter<UserStory>();
 }
